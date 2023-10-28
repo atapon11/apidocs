@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "start": "concurrently \"npm run express\" \"npm run next\"",
+    "start": "NODE_ENV=production node server.js",
     "express": "node server.js",
     "next": "next"
   }
+  
   ,
   "dependencies": {
     "@emotion/react": "^11.11.1",
