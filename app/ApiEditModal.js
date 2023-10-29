@@ -9,7 +9,7 @@ const ApiEditModal = ({ open, onClose }) => {
 
 
   const handlePasswordSubmit = () => {
-    if (password === 'เอิทหล่อมาก') {
+    if (password === '123') {
       setMessage('รหัสผ่านถูกต้องจ้า');
       setMessageColor('green'); // เปลี่ยนสีของข้อความเป็นสีเขียว
       setTimeout(() => {
@@ -35,7 +35,7 @@ const ApiEditModal = ({ open, onClose }) => {
         />
         <Button variant="contained" color="primary" onClick={handlePasswordSubmit}
           sx={{
-            background: "black",
+            background: "whaite",
             border: "1px solid black",
             color: "black",
             marginTop: "8px"
